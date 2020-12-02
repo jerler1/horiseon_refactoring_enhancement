@@ -24,7 +24,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -50,6 +50,7 @@ p {
     font-size: 16px;
 }
 
+/* This is the main image of the webpage */
 .hero {
     height: 800px;
     width: 100%;
@@ -73,6 +74,27 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+
+/* Moved the following css before the benefits due to this code coming before the benefits in the html.*/
+/* These are the main header CSS - redudant code has been removed */
+/* classes search engine optimization, online reputation management, and social media manager merged into main-headers */
+.main-headers {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.main-headers img {
+    max-height: 200px;
+}
+
+.main-headers h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .benefits {
@@ -100,26 +122,6 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/* These are the main header CSS - redudant code has been removed */
-/* classes search engine optimization, online reputation management, and social media manager merged into main-headers */
-.main-headers {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.main-headers img {
-    max-height: 200px;
-}
-
-.main-headers h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .footer {
