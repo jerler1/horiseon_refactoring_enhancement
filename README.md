@@ -1,7 +1,8 @@
 # **Horiseon Code Refactor**
 
 ## **Goal**
-
+---
+<br>
 The code was built in a non-accessable way, and the main goal was to access the code and make it more accessable.  Accessable websites get better access to search engines and it makes the website more accessible to more potential customers. To do this HTML tags were replaced with more approiate semantic tags and alt tags were created for all images.
 
 While the code was being modified the code was being cleaned up.  The redudant class tags were consolidated and more approriate tags were assigned for all class tags involved.  
@@ -9,6 +10,22 @@ While the code was being modified the code was being cleaned up.  The redudant c
 [The deployed website](https://jerler1.github.io/horiseon_refactoring_enhancement/) has a more robust accessbility suite now, and is more likely to be accessed via search engines due to the accessibility improvements.
 
 [Github Repository Link](https://github.com/jerler1/horiseon_refactoring_enhancement)
+
+### **Installation**
+---
+<br>
+The steps to complete the refactoring of this website:
+<br>
+
+1. Enhanced the div tags to approriate semantic tags.
+1. Added alt tags and descriptions to all images.
+1. Changed the title to be more focused the brand.
+1. Merged the CSS to make future changes more dynamic and accessable.
+
+### **Usuage**
+---
+<br>
+This is a mostly informational webpage.  There are some links at the top right that will transport you to the approatiate location.
 
 ![Horiseon Web Page](./assets/images/horiseon_image.png)
 
